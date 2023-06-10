@@ -35,7 +35,7 @@ environment:
       - OPENAI_KEY=sk-1234
       - XAPP_KEY=xapp-1234
 ```
-Then, you can simply build an deploy!
+Then, you can simply build and deploy!
 
 ```sh
 docker compose build --no-cache && docker compose up -d
